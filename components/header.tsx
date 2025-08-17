@@ -60,7 +60,7 @@ export default function Header() {
                   className="flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border border-slate-700/50 shadow-lg hover:shadow-green-600/20 transition-all duration-300 hover:scale-105 relative"
                 >
                   <img
-                    src={`/${image.filename}`}
+                    src={`/badges/${image.filename}`}
                     alt={`Roblox item ${index + 1}`}
                     className="w-full h-full object-cover"
                     loading="lazy"
@@ -88,7 +88,7 @@ export default function Header() {
                   className="flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border border-slate-700/50 shadow-lg hover:shadow-green-600/20 transition-all duration-300 hover:scale-105 relative"
                 >
                   <img
-                    src={`/${image.filename}`}
+                    src={`/badges/${image.filename}`}
                     alt={`Roblox item ${index + 1}`}
                     className="w-full h-full object-cover"
                     loading="lazy"

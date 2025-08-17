@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description: "Personal Roblox item trading - Buy & Sell rare limiteds",
   generator: "v0.app",
   icons: {
-    icon: "/ddddddd.jpg",
-    shortcut: "/ddddddd.jpg",
-    apple: "/ddddddd.jpg",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 }
 
