@@ -30,7 +30,6 @@ export default function Header() {
       "noFilter-21.webp",
       "noFilter-22.webp",
       "noFilter-23.webp",
-      "noFilter-25.webp",
       "noFilter-26.webp",
       "noFilter-27.webp",
       "noFilter-28.webp",
@@ -42,7 +41,7 @@ export default function Header() {
       .sort(() => Math.random() - 0.5)
       .map((image) => ({
         filename: image,
-        status: Math.random() > 0.6 ? (Math.random() > 0.5 ? 'SOLD' : 'CASHED') : null,
+        status: Math.random() > 0.5 ? 'SOLD' : 'CASHED',
       }))
     setShuffledImages(shuffled)
   }, [])
