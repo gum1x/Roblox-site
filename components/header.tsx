@@ -37,11 +37,11 @@ export default function Header() {
     ]
 
     // Shuffle the array and add SOLD or CASHED status for some images
-    const shuffled = [...imageFiles]
+    const shuffled: Array<{ filename: string; status: 'SOLD' | 'CASHED' | null }> = [...imageFiles]
       .sort(() => Math.random() - 0.5)
       .map((image) => ({
         filename: image,
-        status: Math.random() > 0.5 ? 'SOLD' : 'CASHED',
+        status: (Math.random() > 0.5 ? 'SOLD' : 'CASHED') as 'SOLD' | 'CASHED',
       }))
     setShuffledImages(shuffled)
   }, [])
