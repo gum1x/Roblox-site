@@ -665,6 +665,7 @@ export default function RobloxMarketplace() {
             <Button
               size="lg"
               className="bg-green-950 hover:bg-black text-white text-lg px-8 py-3 transform hover:scale-105 transition-all duration-300 hover:shadow-xl"
+              onClick={() => { window.location.href = 'https://example.com' }}
             >
               Contact Me
             </Button>
