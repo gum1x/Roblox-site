@@ -106,12 +106,14 @@ export default function RobloxMarketplace() {
             <Button
               size="lg"
               className="bg-green-700 hover:bg-green-800 text-lg px-8 py-3 transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-green-600/20"
+              onClick={() => { window.location.href = 'https://example.com' }}
             >
               Click here to sell
             </Button>
             <Button
               size="lg"
               className="bg-green-700 hover:bg-green-800 text-lg px-8 py-3 transform hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-green-600/20"
+              onClick={() => { window.location.href = 'https://example.com' }}
             >
               Click here to buy
             </Button>
